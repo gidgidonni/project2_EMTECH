@@ -210,7 +210,7 @@ while login == True:
             print("-----------------------------------------------")
             contribuciones = contribucion(i)
             print("País      Contribución (%)")
-            lim = lim = contribuciones[0][1]
+            lim = contribuciones[0][1]
             for w in range(len(contribuciones)):
                 if lim < 80.0:
                     print(f"{contribuciones[w][0]}     {round(contribuciones[w][1],2)}")
